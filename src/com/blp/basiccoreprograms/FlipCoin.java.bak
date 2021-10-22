@@ -1,0 +1,32 @@
+package com.blp.basiccoreprograms;
+
+/**
+ * Flip Coin and Print Percentage of Head and Tail
+ */
+
+public class FlipCoin {
+    int count1 = 0;
+    int count2 = 0;
+
+    public static void main(String[] args) {
+        FlipCoin coin = new FlipCoin();
+        coin.flip();
+        coin.percentage();
+    }
+    private void flip() {
+        int numOfFlip = 1
+        while ()
+        int randomNum = (int) (Math.floor(Math.random() * 10) % 2);
+        if ( randomNum == 0 ) {
+            System.out.println("Head");
+            count1++;
+        } else
+            System.out.println("Tail");
+            count2++;
+    }
+    public int percentage() {
+
+
+    }
+}
+
